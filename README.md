@@ -99,8 +99,8 @@ Here’s how you can join the journey:
 **⭐ Support the Project**<br>
 • Give the repo a star ⭐ to spread the word.<br>
 This helps me keep building new features and improving the library.
-
-✨ No contribution is too small. Whether you report a bug, suggest a feature, or just support the project, you’re making a difference. <br>Thank you for being part of **Curving Reality** 🚀
+<br>
+✨ No contribution is too small. Whether you report a bug, suggest a feature, or just support the project, you’re making a difference. <br>**Thank you for being part of this 🚀**
 
 <hr>
 
