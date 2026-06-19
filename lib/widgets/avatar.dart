@@ -56,8 +56,8 @@ class _CuReAvatarState extends State<CuReAvatar> {
         if (widget.child != null) widget.child!,
         if (widget.isOnline != null && widget.isOnline!)
           Positioned(
-            bottom: 0,
-            right: 0,
+            bottom: _getOnlinePosition(),
+            right: _getOnlinePosition(),
             child: Container(
               width: _getOnlineStatusSize(),
               height: _getOnlineStatusSize(),
@@ -122,6 +122,29 @@ class _CuReAvatarState extends State<CuReAvatar> {
       defautlSize -= 2;
     }
     return defautlSize;
+  }
+
+  double _getOnlinePosition() {
+    double defaultPosition;
+    switch (widget.size) {
+      case CuReAvatarSize.extraSmall:
+        defaultPosition = 1;
+        break;
+      case CuReAvatarSize.small:
+        defaultPosition = 1;
+        break;
+      case CuReAvatarSize.large:
+        defaultPosition = 4;
+        break;
+      case CuReAvatarSize.biggest:
+        defaultPosition = 6;
+        break;
+      case CuReAvatarSize.medium:
+      default:
+        defaultPosition = 3;
+        break;
+    }
+    return defaultPosition;
   }
 
   double _getNotificationsSize() {
