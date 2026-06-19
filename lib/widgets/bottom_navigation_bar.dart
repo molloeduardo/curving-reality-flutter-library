@@ -40,7 +40,8 @@ class _CuReBottomNavigationBarState extends State<CuReBottomNavigationBar> {
     return Ink(
       width: double.infinity,
       height: (MediaQuery.of(context).padding.bottom > 0
-              ? MediaQuery.of(context).padding.bottom
+              ? MediaQuery.of(context).padding.bottom +
+                  (CuReUtils.isIos() ? 0 : 12)
               : 12) +
           55,
       decoration: BoxDecoration(
@@ -52,7 +53,8 @@ class _CuReBottomNavigationBarState extends State<CuReBottomNavigationBar> {
       ),
       padding: EdgeInsets.only(
         bottom: MediaQuery.of(context).padding.bottom > 0
-            ? MediaQuery.of(context).padding.bottom
+            ? MediaQuery.of(context).padding.bottom +
+                (CuReUtils.isIos() ? 0 : 12)
             : 12,
         top: 12,
       ),
