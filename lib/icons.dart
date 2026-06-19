@@ -216,4 +216,8 @@ class CuReIcons {
   static IconData get downloadOutlined => CuReUtils.isIos()
       ? CupertinoIcons.square_arrow_down
       : Icons.download_outlined;
+  static IconData get refresh =>
+      CuReUtils.isIos() ? CupertinoIcons.refresh : Icons.refresh;
+  static IconData get ban =>
+      CuReUtils.isIos() ? CupertinoIcons.xmark_octagon_fill : Icons.block;
 }
