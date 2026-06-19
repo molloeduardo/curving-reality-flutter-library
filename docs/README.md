@@ -31,7 +31,7 @@ A multiplatform button created without and with the library.
 
 <div class="flex-center">
     <div class="laptop-container">
-        <iframe src="https://www.curvingreality.com/projects/flutter-library/before-after.html" style="height: 1000px; border: solid 6px #111; border-radius: 36px; box-shadow: 0px 15px 15px #b0b0b0"></iframe>
+        <iframe src="https://www.eduardomollo.com/projects/flutter-library/before-after.html" style="height: 1000px; border: solid 6px #111; border-radius: 36px; box-shadow: 0px 15px 15px #b0b0b0"></iframe>
     </div>
 </div>
 
@@ -46,7 +46,7 @@ Keep in mind that this is the representation of the Android UI. The style and th
 
 <div class="flex-center">
     <div class="smartphone-container">
-        <iframe src="https://www.curvingreality.com/projects/flutter-library/" style="height: 900px; border: solid 6px #111; border-radius: 36px; box-shadow: 0px 15px 15px #b0b0b0"></iframe>
+        <iframe src="https://www.eduardomollo.com/projects/flutter-library/" style="height: 900px; border: solid 6px #111; border-radius: 36px; box-shadow: 0px 15px 15px #b0b0b0"></iframe>
     </div>
 </div>
 <br><br><br>
@@ -137,15 +137,11 @@ Here’s how you can join the journey:
 
 **⭐ Support the Project**<br>
 • Give the repo a star ⭐ to spread the word.<br>
-• Consider supporting the development by donating. Even a small amount can make a huge difference.
-<br>This helps us keep building new features and improving the library.
+This helps me keep building new features and improving the library.
 <br><br><br>
-<a class="button" href="https://www.paypal.com/donate/?hosted_button_id=UNF6D5BHMZXVQ" target="_blank">Donate now ❤️</a>
-<br><br><br>
-✨ No contribution is too small. Whether you report a bug, suggest a feature, or just support the project, you’re making a difference. <br>Thank you for being part of **Curving Reality** 🚀
 
 <hr>
 
-# Who is Curving Reality?
+# Creator
 
-[Curving Reality](https://www.curvingreality.com/) is a project idea created by an italian solo developer.
+This is an open source project created by an italian solo developer, [Eduardo Mollo](https://www.eduardomollo.com/).

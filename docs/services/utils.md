@@ -49,8 +49,8 @@ Method used to open a web URL.
 !> This method depends on the [url_launcher](https://pub.dev/packages/url_launcher) package.
 
 ```dart
-CuReUtils.openUrl('https://www.curvingreality.com/', false); // Opens in the internal app browser
-CuReUtils.openUrl('https://www.curvingreality.com/', true); // Opens in the external app browser
+CuReUtils.openUrl('https://www.eduardomollo.com/', false); // Opens in the internal app browser
+CuReUtils.openUrl('https://www.eduardomollo.com/', true); // Opens in the external app browser
 ```
 
 ## Darken

@@ -1,3 +1,40 @@
+## [1.2.2] - 2026-06-19
+
+### Added
+
+- New icons: refresh, bam
+
+### Changed
+
+- N/A
+
+### Fixed
+
+- Bottom Navigation Bar sizing
+- Avatar online status position
+
+### Deprecated
+
+- N/A
+
+### Removed
+
+- N/A
+
+### Security
+
+- N/A
+
+### Code
+
+- N/A
+
+### Other
+
+- N/A
+
+---
+
 ## [1.2.1] - 2026-03-29
 
 ### Added
