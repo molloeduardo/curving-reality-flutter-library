@@ -320,8 +320,6 @@ class CuReUtils {
       'You must provide either contentBuilder or content.',
     );
 
-    // ⚠️ Importante: costruisci il contenuto DENTRO i builder delle modali
-    // così prende il MediaQuery giusto (viewInsets della tastiera, ecc.)
     Widget buildContent(BuildContext ctx) {
       return contentBuilder != null
           ? contentBuilder(ctx)
@@ -345,8 +343,6 @@ class CuReUtils {
                   children: [
                     if (hideCloseButton == null || !hideCloseButton)
                       CuReSpacing.vertical(0.5),
-
-                    // ✅ Scroll + padding interno: evita che la tastiera copra il content
                     Padding(
                       padding: EdgeInsets.only(
                         top: (hideCloseButton == null || hideCloseButton)
@@ -358,7 +354,6 @@ class CuReUtils {
                         child: buildContent(ctx),
                       ),
                     ),
-
                     if (hideCloseButton == null || !hideCloseButton)
                       Positioned(
                         right: 0,
@@ -369,7 +364,6 @@ class CuReUtils {
                           onPressed: () => Navigator.of(ctx).pop(),
                         ),
                       ),
-
                     if (title.isNotEmpty)
                       Positioned.fill(
                         child: Align(
@@ -427,7 +421,7 @@ class CuReUtils {
     return showModalBottomSheet<T>(
       context: context,
       isScrollControlled: true,
-      backgroundColor: Colors.transparent, // per i bordi arrotondati
+      backgroundColor: Colors.transparent,
       builder: (ctx) {
         final bottomInset = MediaQuery.of(ctx).viewInsets.bottom;
 
@@ -521,6 +515,10 @@ class CuReUtils {
         return sheet;
       },
     );
+  }
+
+  static InteractiveInkFeatureFactory getSplashFactory() {
+    return CuReUtils.isIos() ? NoSplash.splashFactory : InkRipple.splashFactory;
   }
 
   static String fromIconToString(IconData icon) {
