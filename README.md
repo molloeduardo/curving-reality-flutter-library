@@ -54,7 +54,7 @@ Some **components**, **screens** and **services** have external packages depende
 
 # Future Developments
 
-We’re just getting started – here’s what’s coming next for **Curving Reality Flutter Library**:
+I am just getting started – here’s what’s coming next for **Curving Reality Flutter Library**:
 
 **🛠 Refactoring**<br>
 • Cleaner, faster, and more maintainable codebase.<br>
@@ -78,13 +78,13 @@ We’re just getting started – here’s what’s coming next for **Curving Rea
 
 ⸻
 
-🚀 Our mission is to keep evolving and making app development with Flutter faster, simpler, and more fun – while never compromising on design quality.
+🚀 My mission is to keep evolving and making app development with Flutter faster, simpler, and more fun – while never compromising on design quality.
 
 <hr>
 
 # How to Contribute
 
-We’d love your help to make **Curving Reality Flutter Library** grow and get even better! ❤️
+I'd love your help to make **Curving Reality Flutter Library** grow and get even better! ❤️
 
 Here’s how you can join the journey:
 
@@ -94,7 +94,7 @@ Here’s how you can join the journey:
 
 **💡 Suggest Features**<br>
 • Have an idea that could improve the library?<br>
-• Share it in the issues section – we’re always open to new ideas!
+• Share it in the issues section – I'm always open to new ideas!
 
 **⭐ Support the Project**<br>
 • Give the repo a star ⭐ to spread the word.<br>
