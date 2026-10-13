@@ -1,3 +1,15 @@
+<p align="center">
+  <a href="https://molloeduardo.github.io/bonsui-flutter/">
+    <img
+      src="https://www.eduardomollo.com/projects/bonsui/new-library.png"
+      alt="Discover the new Bonsui library"
+      width="600"
+    />
+  </a>
+</p>
+
+<br>
+
 # What is this for?
 
 A Flutter library that speeds up development with ready-to-use UI components, screens, and services to build high-quality iOS and Android apps from a single codebase.
